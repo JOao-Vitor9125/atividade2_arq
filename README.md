@@ -5,7 +5,7 @@ Instruções: baixe a pasta .zip, descompacte a pasta
 -Dentro da pasta principal, rode o comando "npm install" para instalar as dependências do arquivo "package.json" para o funcionamento do programa. Após isso os seguintes comandos DEVERIAM ESTAR FUNCIONANDO:
 
 1- npx ts-node adapter_REST.ts   //para iniciar o servidor web para REST.
-1.5- ctrl + c para encerrar o servidor.
+ -1.5- ctrl + c para encerrar o servidor.
 
 2- No CMD, o comando curl -X POST http://localhost:3000/compromisso -H "Content-Type: application/json" -d "{\"data\": \"15/01/2026\", \"start\": \"10:00\", \"end\": \"12:00\", \"descr\": \"Reuniao de Teste CMD\"}"      //deve adicionar um compromisso ao banco (no linux é diferente, talvez o senhor saiba converter o comando para rodar no linux mas o nosso saiu em CMD).
 
